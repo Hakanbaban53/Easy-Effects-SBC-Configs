@@ -19,12 +19,12 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Hakanbaban53/Easy-Effect
 ```
 **NOTE**: the script requires `curl` to be installed.If you haven't installed curl yet, you have to first run
 
-# Ubuntu/Debian
+**Ubuntu/Debian**
 ```
 sudo apt install curl
 ```
 
-# Arch
+**Arch**
 ```
 sudo pacman -S curl
 ```
