@@ -37,7 +37,7 @@ read_choice() {
 
 install_menu() {
     echo "Please select an option for presets installation (Default=1)"
-    echo "1) Install Sound Blaster Cinema presets"
+    echo "1) Install irs, Perfect EQ and Sound Blaster Cinema presets"
 }
 
 install_presets() {
@@ -63,11 +63,11 @@ install_presets() {
         curl "$IRLGIT_REPOSITORY/irs/HTC%20Beats%20Audio%20((Z-Edition)).irs" --output "$PRESETS_DIRECTORY/irs/HTC Beats Audio ((Z-Edition)).irs" --silent
         curl "$IRLGIT_REPOSITORY/irs/Waves%20MaxxAudio%20((Z-Edition))%20AudioWizard%201.Music.irs" --output "$PRESETS_DIRECTORY/irs/Waves MaxxAudio ((Z-Edition)) AudioWizard 1.Music.irs" --silent
         echo "Installing SBC Gaming Present..."
-        curl "$SBCGIT_REPOSITORY/Effects/Gaming.json" --output "$PRESETS_DIRECTORY/output/Gaming.json" --silent
+        curl "$SBCGIT_REPOSITORY/Gaming.json" --output "$PRESETS_DIRECTORY/output/Gaming.json" --silent
         echo "Installing SBC Music Present..."
-        curl "$SBCGIT_REPOSITORY/Effects/Gaming.json" --output "$PRESETS_DIRECTORY/output/Music.json" --silent
+        curl "$SBCGIT_REPOSITORY/Gaming.json" --output "$PRESETS_DIRECTORY/output/Music.json" --silent
         echo "Installing SBC Movie Present..."
-        curl "$SBCGIT_REPOSITORY/Effects/Gaming.json" --output "$PRESETS_DIRECTORY/output/Movie.json" --silent
+        curl "$SBCGIT_REPOSITORY/Gaming.json" --output "$PRESETS_DIRECTORY/output/Movie.json" --silent
         ;;
    
     esac
